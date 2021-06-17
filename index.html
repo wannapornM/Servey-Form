@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="form-wrapper">
+            <div class="form-title">Labtop Form</div>
+            <form action="">
+                <div class="textview1">
+                    <p>Which laptop brand do you think is the best to use right now?</p>
+                    <input type="radio" id="macbook" name="brand" value="macbook">
+                    <label for="macbook">MACBOOK AIR</label><br>
+                    <input type="radio" id="hp" name="brand" value="hp">
+                    <label for="hp">HP SPECTRE X360 14</label><br>
+                    <input type="radio" id="lg" name="brand" value="lg">
+                    <label for="lg">LG GRAM 17</label><br>
+                    <input type="radio" id="dell" name="brand" value="dell">
+                    <label for="dell">DELL XPS 13 2-IN-1</label><br>
+                    <input type="radio" id="asus" name="brand" value="asus">
+                    <label for="asus">ASUS ROG ZEPHYRUS G15</label><br>
+                </div>
+
+                <div class="textview2">
+                    <p>Reason for choosing this brand of laptop</p>
+                    <textarea id="reasonarea" name="reasonarea" rows="5" cols="43"></textarea>
+                </div>
+
+                <div class="field-submit">
+                    <input type="submit" name="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="src/index.js"></script>
+</body>
+</html>
